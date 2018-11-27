@@ -18,7 +18,7 @@ namespace SwaggerOnlyDevelopment
 
             services.AddSwaggerGen(c =>
             {
-                c.SwaggerDoc("v1", new Info { Title = "Ambientes Decorados - Swagger .Net Core", Version = "v1" });
+                c.SwaggerDoc("v1", new Info { Title = "Swagger-Only-Development - Swagger .Net Core", Version = "v1" });
             });
         }
 
